@@ -1,0 +1,1 @@
+[{"trial_id": "0000", "score": 0.5024999976158142, "num_hidden_layers": 2, "embed_dims": 176, "lstm_units": 160, "dense_units": 128, "dropout_rate": 0.2, "learning_rate": 1e-05, "tuner/epochs": 1, "tuner/initial_epoch": 0, "tuner/bracket": 0, "tuner/round": 0}]

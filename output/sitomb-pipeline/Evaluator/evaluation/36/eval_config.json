@@ -1,0 +1,59 @@
+{
+  "evalConfig": {
+    "modelSpecs": [
+      {
+        "labelKey": "clickbait"
+      }
+    ],
+    "slicingSpecs": [
+      {},
+      {
+        "featureKeys": [
+          "h",
+          "e",
+          "a",
+          "d",
+          "l",
+          "i",
+          "n",
+          "e"
+        ]
+      }
+    ],
+    "metricsSpecs": [
+      {
+        "metrics": [
+          {
+            "className": "AUC"
+          },
+          {
+            "className": "Precision"
+          },
+          {
+            "className": "Recall"
+          },
+          {
+            "className": "ExampleCount"
+          },
+          {
+            "className": "BinaryAccuracy",
+            "threshold": {
+              "valueThreshold": {
+                "lowerBound": 0.5
+              }
+            }
+          }
+        ],
+        "modelNames": [
+          ""
+        ]
+      }
+    ]
+  },
+  "version": "0.45.0",
+  "dataLocation": "<user provided PCollection>",
+  "fileFormat": "<unknown>",
+  "modelLocations": {
+    "": "output/sitomb-pipeline/Trainer/model/35/Format-Serving"
+  }
+}
